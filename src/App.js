@@ -52,12 +52,12 @@ function App() {
           type="number"
           placeholder="Type a number"
         />
-        <button onClick={plus}>+</button>
-        <button onClick={minus}>-</button>
-        <button onClick={times}>x</button>
-        <button onClick={divide}>'/.</button>
-        <button onClick={inputRef}>Input</button>
-        <button onClick={resultRef}>Result</button>
+        <button onClick={plus}>Add</button>
+        <button onClick={minus}>Subtract</button>
+        <button onClick={times}>Multiply</button>
+        <button onClick={divide}>Divide</button>
+        <button onClick={resetInput}>Input</button>
+        <button onClick={resetResult}>Result</button>
       </form>
     </div>
   );
